@@ -3,11 +3,11 @@
 ## Character Creation
 
 ### Choose a Race
-	a. +/- Ability scores
-	b. Speed
-	c. Proficiencies
-	d. Traits
-	e. Languages
+a. +/- Ability scores
+b. Speed
+c. Proficiencies
+d. Traits
+e. Languages
 
 ### Choose a Class
 	a. +/- Ability scores
