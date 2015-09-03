@@ -3,32 +3,32 @@
 ## Character Creation
 
 ### Choose a Race
-1. +/- Ability scores
-2. Speed
-3. Proficiencies
-4. Traits
-5. Languages
+*. +/- Ability scores
+*. Speed
+*. Proficiencies
+*. Traits
+*. Languages
 
 ### Choose a Class
-1. +/- Ability scores
-2. Note your primary stat for (3)
+*. +/- Ability scores
+*. Note your primary stat for (3)
 
 ### Ability Scores
-1. Roll/point buy/point array
-2. Modify with the +/- from (1) and (2)
+*. Roll/point buy/point array
+*. Modify with the +/- from (1) and (2)
 	- Write in the small box
-3. MODIFIERS
+*. MODIFIERS
 	* These are the +/- you add to your rolls for attacks, ability checks, saving throws, etc. Write in big box. See box below:
 
     	**Modifier Calculator = floor( (AS - 10) / 2 )**
 
 ### Lore
-a. Make a rich backstory: where they came from, where they're going, what makes them tick, defining events, personality traits, beliefs
-b. Choose Background
+*. Make a rich backstory: where they came from, where they're going, what makes them tick, defining events, personality traits, beliefs
+*. Choose Background
 	* I take relevant equipment and traits, but I don't use the Personality Traits, Ideals, Bonds, Flaws -- I leave it to you.
 
 ### Rest of the Character Sheet
-a. Inspiration
+. Inspiration
 	- Token points, given to players by DM at DM's discretion for really good roleplay. PCs can then spend this point to aid them in diong ingenious shit (e.g. need to get out of handcuffs blindfolded). 
 b. Proficiency Bonus
 	- See character class page
