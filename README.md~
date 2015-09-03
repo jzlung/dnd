@@ -1,15 +1,15 @@
 # Dungeons and Dragons 5e Guide
 
 ## TODO
-* [ ] = not completed
-* [ X ] = completed
-* [ / ] = in progress
-* [ - ] = tabled
+* [] = not completed
+* [X] = completed
+* [/] = in progress
+* [-] = tabled
 
-[ / ] Character Creation
-[ ] Spellcasting
-[ ] Combat
-[ ] Travel
+[/] Character Creation
+[] Spellcasting
+[] Combat
+[] Travel
 
 ## Character Creation
 
@@ -31,9 +31,9 @@
 * MODIFIERS
 	* These are the +/- you add to your rolls for attacks, ability checks, saving throws, etc. Write in big box.
 
-	```
+		'''
     	**Modifier Calculator = floor( (AS - 10) / 2 )**
-    	```
+    	'''
 
 ### Lore
 * Name!
@@ -88,17 +88,6 @@
 * Initiative
 	= DEX-mod
 	* This is added onto the initiative roll, i.e. rolling for initiative is a DEX-check. 
-
-## Links
-
-DM Tips from a Pro DM
-http://imgur.com/gallery/TCyH1/new
-
-DM Tips from Reddit
-https://www.reddit.com/r/DungeonsAndDragons/comments/2n0fm2/basics_of_being_a_dungeon_master_or_how_i_learned/
-
-Character Creation ( + a lot more video guides)
-https://www.youtube.com/watch?v=KFkdHn1d3Ow
 
 
 
