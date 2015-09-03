@@ -34,7 +34,6 @@
 	```
     	**Modifier Calculator = floor( (AS - 10) / 2 )**
     	```
-
 ### Lore
 * Name!
 * Make a rich backstory: where they came from, where they're going, what makes them tick, defining events, personality traits, beliefs
