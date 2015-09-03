@@ -1,5 +1,16 @@
 # Dungeons and Dragons 5e Guide
 
+## TODO
+* [] = not completed
+* [X] = completed
+* [/] = in progress
+* [-] = tabled
+
+[/] Character Creation
+[] Spellcasting
+[] Combat
+[] Travel
+
 ## Character Creation
 
 ### Choose a Race
@@ -14,18 +25,25 @@
 * Note your primary stat for (3)
 
 ### Ability Scores
-* Roll/point buy/point array
-* Modify with the +/- from (1) and (2)
+* Roll/point buy/point array to generate 6 random numbers <= 18
+* Adjust with the +/- from (1) and (2)
 	- Write in the small box
 * MODIFIERS
-	* These are the +/- you add to your rolls for attacks, ability checks, saving throws, etc. Write in big box. See box below:
+	* These are the +/- you add to your rolls for attacks, ability checks, saving throws, etc. Write in big box.
 
+		'''
     	**Modifier Calculator = floor( (AS - 10) / 2 )**
+    	'''
 
 ### Lore
+* Name!
 * Make a rich backstory: where they came from, where they're going, what makes them tick, defining events, personality traits, beliefs
 * Choose Background
-	* I take relevant equipment and traits, but I don't use the Personality Traits, Ideals, Bonds, Flaws -- I leave it to you.
+	- I don't use the Personality Traits, Ideals, Bonds, Flaws -- I leave it to you.
+	- Add Skills Proficiencies
+	- Add Equipment
+	- Add Traits
+* Alignment
 
 ### Rest of the Character Sheet
 * Inspiration
@@ -52,14 +70,21 @@
 * Proficiency
 	- See class
 * Equipment
-	A. Attacking equipment goes in ATTACK BOX
+	* Attacking equipment goes in ATTACK BOX
 		- Can do gold-equipment-buy or use starting/recommended sets
 		- ATK Bonus = STR-Mod + [Proficiency]
 		- Damage / Type: see Equipment page = die + STR-mod // damage type (e.g. "slashing, fire, acid, peircing")
 		- In combat, Resistance comes into play: take half dmg; vulnerability: take more -- from the damage type 
-	B. Defense and Misc. goes in EQUIPMENT BOX
+	* Defense and Misc. goes in EQUIPMENT BOX
 * Armor Class
-	Armor + Shield + <#if Light> DEX-mod <#elif Medium> max(DEX-mod, 2) <#elif Heavy> 0 regardless of DEX <#/if>
+	* Armor + Shield + <#if Light> DEX-mod <#elif Medium> max(DEX-mod, 2) <#elif Heavy> 0 regardless of DEX <#/if>
+	- //TODO: can affect disadvantage in stealth
+* Passive Perception
+	= 10 + WIS-mod
+* Initiative
+	= DEX-mod
+	* This is added onto the initiative roll, i.e. rolling for initiative is a DEX-check. 
+
 
 
 
