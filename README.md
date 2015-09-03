@@ -62,8 +62,9 @@
 * Speed
 	- See race
 * Saving Throws
-	- See class
-	- Add proficiency bonus on top of modifier and saving throw rolls if you are proficient in the saves of the appropriate ability
+	- See class for which ST you have proficiency in
+	- Tick those boxes; for the proficient, write down the relevant modifier + proficiency; otherwise write just the modifier
+	- Add the bonus of the relevant ability when you roll ST
 * Skills
 	- See class, each class has a list of skills to choose from; CHOOSE X, where X is from sheet, OR 2
 		. Add proficiency and the relevant A-Mod
