@@ -53,7 +53,7 @@ Modifier Calculator = floor( (AS - 10) / 2 )
 	- Add this bonus whenever you roll for a skill for which you have proficiency
 * Hit Dice
 	- See class page; put in big box?
-	- Use in day to restore HP through REST. Spend a hit die, roll the hit die or take average, add to HP. //TODO: Long rest will refresh the die.
+	- Use in day to restore HP through REST. Spend a hit die, roll the hit die or take average, add to HP. *//TODO: Long rest will refresh the die.*
 * Hit Points
 	How HP Works: life total, 0 means unconscious, -10 is death.
 	- Maximum: (Hit Dice) + Constitution Modifier
@@ -82,7 +82,7 @@ Modifier Calculator = floor( (AS - 10) / 2 )
 		- if Light Armor: DEX-mod 
 		- elif Medium Armor: max(DEX-mod, 2) 
 		- elif Heavy Armor: 0, regardless of DEX
-	- //TODO: can affect disadvantage in stealth
+	- *//TODO: can affect disadvantage in stealth*
 * Passive Perception
 	= 10 + WIS-mod
 * Initiative
