@@ -100,6 +100,8 @@ https://www.reddit.com/r/DungeonsAndDragons/comments/2n0fm2/basics_of_being_a_du
 Character Creation ( + a lot more video guides)
 https://www.youtube.com/watch?v=KFkdHn1d3Ow
 
+Harmontown, the best D&D pocast
+https://dl.dropboxusercontent.com/u/18252097/harmontown.html
 
 
 
