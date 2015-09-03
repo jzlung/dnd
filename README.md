@@ -78,7 +78,10 @@
 		- In combat, Resistance comes into play: take half dmg; vulnerability: take more -- from the damage type 
 	* Defense and Misc. goes in EQUIPMENT BOX
 * Armor Class
-	* Armor + Shield + <#if Light> DEX-mod <#elif Medium> max(DEX-mod, 2) <#elif Heavy> 0 regardless of DEX <#/if>
+	* Armor + Shield + [DEX]
+		- if Light Armor: DEX-mod 
+		- elif Medium Armor: max(DEX-mod, 2) 
+		- elif Heavy Armor: 0, regardless of DEX
 	- //TODO: can affect disadvantage in stealth
 * Passive Perception
 	= 10 + WIS-mod
