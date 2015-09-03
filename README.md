@@ -20,7 +20,7 @@
 3. MODIFIERS
 	These are the +/- you add to your rolls for attacks, ability checks, saving throws, etc. Write in big box. See box below:
 
-	**Modifier Calculator = floor( (AS - 10) / 2 )**
+    **Modifier Calculator = floor( (AS - 10) / 2 )**
 
 ### Lore
 a. Make a rich backstory: where they came from, where they're going, what makes them tick, defining events, personality traits, beliefs
