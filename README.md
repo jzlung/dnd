@@ -10,25 +10,22 @@
 5. Languages
 
 ### Choose a Class
-	a. +/- Ability scores
-	b. Note your primary stat for (3)
+	1. +/- Ability scores
+	2. Note your primary stat for (3)
 
 ### Ability Scores
-	a. Roll/point buy/point array
-	b. Modify with the +/- from (1) and (2)
+	1. Roll/point buy/point array
+	2. Modify with the +/- from (1) and (2)
 		- Write in the small box
-	c. MODIFIERS
+	3. MODIFIERS
 		These are the +/- you add to your rolls for attacks, ability checks, saving throws, etc. Write in big box. See box below:
 
-	/**
-	 * Modifier Calculator
-	 *   = floor( (AS - 10) / 2 )
-	 */
+	**Modifier Calculator = floor( (AS - 10) / 2 )**
 
 ### Lore
-	a. Make a rich backstory: where they came from, where they're going, what makes them tick, defining events, personality traits, beliefs
-	b. Choose Background
-		- I take relevant equipment and traits, but I don't use the Personality Traits, Ideals, Bonds, Flaws -- I leave it to you.
+a. Make a rich backstory: where they came from, where they're going, what makes them tick, defining events, personality traits, beliefs
+b. Choose Background
+	* I take relevant equipment and traits, but I don't use the Personality Traits, Ideals, Bonds, Flaws -- I leave it to you.
 
 ### Rest of the Character Sheet
 	a. Inspiration
