@@ -1,15 +1,11 @@
 # Dungeons and Dragons 5e Guide
 
 ## TODO
-* [ ] = not completed
-* [ X ] = completed
-* [ / ] = in progress
-* [ - ] = tabled
 
-[ / ] Character Creation
-[ ] Spellcasting
-[ ] Combat
-[ ] Travel
+* [/] Character Creation
+* [ ] Spellcasting
+* [ ] Combat
+* [ ] Travel
 
 ## Character Creation
 
