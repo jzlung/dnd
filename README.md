@@ -85,6 +85,9 @@ Modifier Calculator = floor( (AS - 10) / 2 )
 	= DEX-mod
 	* This is added onto the initiative roll, i.e. rolling for initiative is a DEX-check. 
 
+## Spellcasting
+Spell Save Check = 8 + Proficency + Relevant modifier bonus
+
 ## Links
 
 DM Tips from a Pro DM
@@ -99,7 +102,9 @@ https://www.youtube.com/watch?v=KFkdHn1d3Ow
 Harmontown, the best D&D pocast
 https://dl.dropboxusercontent.com/u/18252097/harmontown.html
 
+Guide Dump
 
+http://www.giantitp.com/forums/showthread.php?377491-Guides-Tables-and-other-useful-tools-for-5E-D-amp-D
 
 
 
