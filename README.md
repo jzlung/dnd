@@ -74,7 +74,7 @@ Modifier Calculator = floor( (AS - 10) / 2 )
 		- In combat, Resistance comes into play: take half dmg; vulnerability: take more -- from the damage type 
 	* Defense and Misc. goes in EQUIPMENT BOX
 * Armor Class
-	* Armor + Shield + [DEX]
+	* 10 + Armor + Shield + [DEX]
 		- if Light Armor: DEX-mod 
 		- elif Medium Armor: max(DEX-mod, 2) 
 		- elif Heavy Armor: 0, regardless of DEX
