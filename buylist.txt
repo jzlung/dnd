@@ -1,55 +1,78 @@
 to add:
 
-resto angel
-augur of bolas
-DUNGEON GEISTS
+(mizzmix)
+(ezuri)
+(melen)
+sidisi blood tyrant
+dralnu
+loxodon smiter
+trygon predator
+mystic snake
+dimir doppleganger
+	scourge of valkas
+	vampire interloper
+	slumbering dragon 2
+	runechanter’s pike
+	consuming aberration 3
+alesha
+feldon of he third path
+ash zealot
+flametongue kavu
+siege-gang commander
+crater’s claws
+devil’s play
+	flamewake phoenix
+	satyr nyx-smith
+	?prophetic flamespeaker
+loxodon warhammer
+yasova dclaw
+ant queen
+	dual lands
+monastery siege
+sticher geralf
+domineering will
+augur of bolas	
 talrand
 PROGNOSTIC SPHINX
-
 dissolve
-dig thru time
-    blooodsoaked
-mogi’s marauder
-       bloodline keeper
+DUNGEON GEISTS
+gnarled scarhide
 SHRIEKMAW
-
-Profane Command
-languish
+mogi’s marauder
 despise
-thotseize
-ash zealot
-alesha
-	young pyro
-vampire interloper
-flamewake phoenix
-	  goblin rabblemaster
-	  siege-gang commander
-	  shaman of the great hunt
-flamerush rider
-flametongue kavu
-nylea
+Profane Command
+	thoughtseize + others like it
+	ghoulcaller gisa 2
+comeuppance
+	dualcaster mage 2
+	song of the dryads 2
+	bloodline keeper 5
+	drana, liberator 10
+	domri rade 7
+		SHAMAN OF THE GREAT HUNT 1.5
+	resto angel 8
+	dig thru time 4
+    blooodsoaked champ 3
+    bloodline keeper
+	languish
+	young pyro 2
+	goblin rabblemaster 3
+
+	nylea
 	den protector
 	warden of the first tree
 	scavenging ooze
-yasova dclaw
-ant queen
-crater’s claws
-devil’s play
-mystic snake
-dimir doppleganger
-experiment kraj
-trygon predator
+	experiment kraj 3.5
 spellbound dargon
-grimgrin
+	grimgrin 1.5
 		geist of saint traft
 		grand arbiter
 omnibian
 		hunt master of the fells
 stormkirk captain
 judge’s familiar
-rakdos lord of riots
-loxodon smiter
-corpsejack menace ?
+	rakdos lord of riots 2
+corpsejack menace
 goblin electromancer
        lazav
        obzedat
@@ -58,35 +81,41 @@ armada wurm
 clan defiance
 slitherhead
 varolz
-deaths shadow
+	deaths shadow
 exava
 vexing devil
-lyex skyknight
-isperia
+lyev skyknight
+isperia, supreme judge
 lyzolda
-master of cruelties
-savageborn hydra
+	master of cruelties 4
+	savageborn hydra 2.5
 teysa envoy
 vorel
 melek
 elusive krasis
 epic experiment
-     progenitor mimic
+     progenitor mimic 3.5
 tajic
 shambleshark
 descent of the dragons
+sylvan caryatid
+kitchen finks
+magma jet
+izzet chram
+languish
+the gods
 
 
 jund = broodmate dragon
-bant = finest hour
+bant = finest hour 2.5
 grixis = thraximundar, blood tyrant
 naya = uril
-esper = sen triplets
-RWU
-RWB
-BUG
-URG
-BWG
+esper = sen triplets, dakkon backblade
+RWU = zed, narset, numot, flying crane technique
+RWB = surge helmsmasher, ankle shanker, butcher of the border
+BUG = sides blood tyrant, kheru rich lord, the mimeo plasm
+URG = riku, surrak dragonclaw
+BWG = teneb, ghave
 
 maybe:
 sovereigns of lost alara
