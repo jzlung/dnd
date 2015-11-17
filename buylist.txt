@@ -134,7 +134,7 @@ loxodon hierarch
 	mizzix's mastery
 	corpse augur
 	gisela
-	
+	gigantoplasm
 
 
 jund = broodmate dragon
