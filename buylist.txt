@@ -105,6 +105,37 @@ izzet chram
 languish
 the gods
 
+>>> TO add
+yisan
+godhead of awe
+loxodon hierarch
+	oona
+	glissa traitor
+	mimeoplasm
+	visara
+	arcanis
+	akroma
+	nissa vastwood seer
+	nath
+	ulasht
+	roon of thehidden realm
+	rakdos lord of riots
+	darien king of kjeldor
+	brigid
+	gwafa hazid
+	masako the humorless
+	michiko konda
+	mikaeus, lunarch
+	opal eye
+	student of elements
+	confluence cycle
+	pathbreaker ibex
+	mazirek
+	mizzix's mastery
+	corpse augur
+	gisela
+	
+
 
 jund = broodmate dragon
 bant = finest hour 2.5
