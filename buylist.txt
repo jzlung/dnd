@@ -135,6 +135,28 @@ loxodon hierarch
 	corpse augur
 	gisela
 	gigantoplasm
+	catacomb sifter
+	oran rief hydra
+	necromaster dragon
+	pristine skywise
+	savage ventmaw
+	shielded by faith
+			put in phyrexian metamorph
+	jalira master polymorphist
+	broodbirth viper
+	mirari
+	saffi eriksdotter
+	juniper order ranger
+	lorescale coatl
+	terminate
+	reparations
+	lim dul's vault
+	armadiallo cloak
+	shadowmage infiltrator
+	gaddock teeg
+	
+
+
 
 
 jund = broodmate dragon
