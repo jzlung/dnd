@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.1/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.1/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  <style>
+  </style>
+</head>
+<body>
+  <div id="container">This text should disappear if you rendered correctly.</div>
+ 
+  <script type="text/babel">
+
+    /* CardContainer Class */
+    function CardContainer (preplaced, size, content, active, userPlaced) {
+      this.preplaced = preplaced;
+      this.size = size;
+      this.content = content;
+      this.active = active;
+      this.userPlaced = userPlaced;
+    };
+
+    /* Factory constructors -- any change to the API above, change all of these. */
+
+    function createEmptyCardContainer(size) {
+      return new CardContainer(false, size, null, false, false);
+    };
+
+    function createPreplacedCardContainer(size, content) {
+      return new CardContainer(true, size, content, false, false);
+    }
+
+    CardContainer.prototype.isPreplaced = function() {
+      return this.preplaced;
+    };
+
+    CardContainer.prototype.getSize = function() {
+      return this.size;
+    };
+
+    CardContainer.prototype.getContent = function() {
+      return this.content;
+    };
+
+    CardContainer.prototype.isActive = function() {
+      return this.active;
+    };
+
+    CardContainer.prototype.isUserPlaced = function() {
+      return this.userPlaced;
+    };
+
+    CardContainer.prototype.toggleActive = function() {
+      this.active = !this.active;
+    };
+
+    CardContainer.prototype.removeActive = function() {
+      this.active = false;
+    };
+
+    CardContainer.prototype.setActive = function() {
+      this.active = true;
+    };
+
+    CardContainer.prototype.setContent = function(content) {
+      this.content = content;
+    };
+
+    CardContainer.prototype.resize = function(size) {
+      this.size = size;
+    };
+
+    // TODO: better name?
+    CardContainer.prototype.setUserPlaced = function() {
+      this.userPlaced = true;
+    };
+
+    CardContainer.prototype.removeUserPlaced = function() {
+      this.userPlaced = false;
+    };
+
+    var testRow = [];
+    var testSize = "60px";
+    var testContent1 = "A";
+    var testContent2 = "B";
+    var test1 = createPreplacedCardContainer(testSize, testContent1);
+    var test2 = createPreplacedCardContainer(testSize, testContent2);
+    var test3 = createEmptyCardContainer(testSize);
+    var test4 = createEmptyCardContainer(testSize);
+    var test5 = createEmptyCardContainer(testSize);
+    testRow.push(test1);
+    testRow.push(test2);
+    testRow.push(test3);
+    testRow.push(test4);
+    testRow.push(test5);
+
+    var getTestRow = function() {
+      var testRow = [];
+      var testSize = "60px";
+      var testContent1 = "A";
+      var testContent2 = "B";
+      var test1 = createPreplacedCardContainer(testSize, testContent1);
+      var test2 = createPreplacedCardContainer(testSize, testContent2);
+      var test3 = createEmptyCardContainer(testSize);
+      var test4 = createEmptyCardContainer(testSize);
+      var test5 = createEmptyCardContainer(testSize);
+      testRow.push(test1);
+      testRow.push(test2);
+      testRow.push(test3);
+      testRow.push(test4);
+      testRow.push(test5);
+      return testRow;
+    };
+
+    var getExampleRow = function() {
+      var i = 5;
+      var result = [];
+      var svgPath1 = "dragonsOfTarkir.svg";
+      var svgPath2 = "white.svg";
+      result.push(svgPath1);
+      result.push(svgPath2);
+      result.push(svgPath1);
+      result.push(svgPath2);
+      result.push(svgPath2);
+      return result;
+    };
+
+/* ========================================================================================= */
+
+
+
+    var Card = React.createClass({
+      propTypes: {
+        // Also, non-interactive
+        isPreplaced: React.PropTypes.bool,
+        size: React.PropTypes.string,
+        content: React.PropTypes.string,
+        //TODO: this should be a prop passed in instead of having state maintained here
+        active: React.PropTypes.bool,
+        // TODO: some kind of proptype that active != isPreplaced
+        makeMyselfActive: React.PropTypes.func,
+        userPlaced: React.PropTypes.bool
+      },
+ 
+      getDefaultProps: function() {
+        return {
+          isPreplaced: false,
+          size: "60px",
+          content: "A"
+          //TODO: finish
+        };
+      },
+
+      _onHover: function() {
+        this.setState({
+          // active: true
+        });
+      },
+
+      _offHover: function() {
+        this.setState({
+          // active: false
+        });
+      },
+
+      // Needs to be changed to onMouseDown, onMouseUp
+      _onClick: function() {
+        this.props.makeMyselfActive(this.props.index);
+      },
+ 
+      render: function() {
+        var styles = {
+          verticalAlign: "top",
+          backgroundColor: "#dbf7ff",
+          borderRadius: "5px",
+          width: this.props.size,
+          height: this.props.size,
+          display: "inline-block",
+          margin: "2px 7px"
+        };
+
+        var textStyle = {
+          textAlign: "center",
+          // TODO: needs to be precent
+          fontSize: "36px",
+          color: "#06b9f7",
+          //TODO: this font is not working
+          fontFamily: "Futura medium",
+          position: "relative",
+          top: "50%",
+          transform: "translateY(-50%)",
+          WebkitTouchCallout: "none",
+          WebkitUserSelect: "none",
+          // -khtml-user-select: none;
+          // -moz-user-select: none;
+          // -ms-user-select: none;
+          userSelect: "none",
+          cursor: "default",
+          visibility: "hidden"
+        }
+
+        // This will be reworked to take dynamic class names cx() and ClassNameUtils.joinClassNames
+        // Active state
+        if (this.props.active && !this.props.isPreplaced) {
+          styles.border = "2px solid #06b9f7";
+          styles.margin = "0 5px"
+        }
+
+        // User places a card
+        if (this.props.userPlaced && !this.props.isPreplaced) {
+          styles.backgroundColor = "#f6f9fb";
+          styles.boxShadow = "0px 2px 3px 0px rgba(77, 78, 78, 0.9)";
+          textStyle.visibility = "visible";
+        }
+
+        // Non-interactive preplaced
+        if (this.props.isPreplaced) {
+          styles.backgroundColor = "#ebedef";
+          styles.boxShadow = "0px 1px 2px 0px rgba(77, 78, 78, 0.4)";
+          textStyle.visibility = "visible";
+        }
+
+        // var textCard = (
+        //   <div className="gc-card-text" style={textStyle}>
+        //       {this.props.text}
+        //     </div>);
+        // var emptyCard = <div className="gc-card-empty"></div>;
+        // var cardContents = (this.state.userPlaced) ? textCard : emptyCard;
+
+        return (
+          <div className="gc-card" 
+            // onMouseEnter={this._onHover}
+            // onMouseLeave={this._offHover}
+            onClick={this._onClick}
+            style={styles}>
+
+            <div className="gc-card-content" style={textStyle}>
+              {this.props.content}
+            </div>
+          </div>
+        );
+      }
+    });
+
+/* ========================================================================================= */
+
+    // Row
+    var CardRow = React.createClass({
+      propTypes: {
+        cards: React.PropTypes.array,
+        selectActive: React.PropTypes.func
+      },
+ 
+      getDefaultProps: function() {
+        return {
+          cards: getTestRow(),
+          //todo: finish
+        };
+      },
+
+      // _getFirstOpenSlot: function() {
+      //   var count = 0;
+      //   for (var i = 0; i < this.props.cards.length; i++) {
+      //     var card = this.props.cards[i];
+      //     if (card.isPreplaced()) {
+      //       count++;
+      //     }
+      //     else {
+      //       return count;
+      //     }
+      //   }
+      //   return count;
+      // },
+
+      // getInitialState: function() {
+      //   var cardsFromProps = this.props.cards;
+      //   for (var i = 0; i < cardsFromProps.length; i++) {
+      //     cardsFromProps[i].key = i;
+      //   }
+
+      //   return ({
+      //     activeSlot: this._getFirstOpenSlot(),
+      //     cards: cardsFromProps
+      //   });
+      // },
+
+      // _updateActiveSlot: function(index) {
+      //   var oldActiveIndex = this.state.activeSlot;
+      //   this.state.cards[oldActiveIndex].removeActive();
+      //   this.state.cards[index].setActive();
+
+      //   this.setState({
+      //     activeSlot: index,
+      //     cards: this.state.cards
+      //   });
+
+      // },
+
+      // getActiveSlotIndex: function() {
+      //   return this.state.activeSlot;
+      // },
+
+      // getActiveSlot: function() {
+      //   //TODO: some precondition that it cant be preplaced?
+      //   return this.state.cards[getActiveSlotIndex];
+      // },
+
+      // componentDidMount: function() {
+      //   this._updateActiveSlot(this._getFirstOpenSlot());
+      // },
+ 
+      render: function() {
+
+        var styles = {
+          //TODO: subject to change
+          padding: "10px 10px",
+          textAlign: "center"
+        };
+
+        // TODO: put the card props INTO STATE and figure out how to set their active states!
+
+        var result = this.props.cards.map(function(cardContainer) {
+          return (
+            <Card 
+              //TODO: uniformity with the spacing. also the key thing
+              key = {cardContainer.key}
+              index = {cardContainer.key}
+              isPreplaced = {cardContainer.isPreplaced()}
+              size = {cardContainer.getSize()}
+              content = {cardContainer.getContent()}
+              active = {cardContainer.isActive()}
+              makeMyselfActive = {this.props.selectActive}
+              userPlaced = {cardContainer.isUserPlaced()} />);
+        }.bind(this));
+
+        return (
+          <div className="gc-card-row" style={styles} >
+            {result}
+          </div>
+        );
+      }
+    });
+
+/* ========================================================================================= */
+
+  /* Non-interactive QM row, can display Images. */
+  var QMCardRow = React.createClass({
+    propTypes: {
+      data: React.PropTypes.array,
+      size: React.PropTypes.string
+    },
+
+    getDefaultProps: function() {
+      return {
+        data: getExampleRow(),
+        size: "60px"
+      };
+    },
+
+    render: function() {
+      var cardStyle = {
+        verticalAlign: "top",
+        backgroundColor: "#dbf7ff",
+        borderRadius: "5px",
+        width: this.props.size,
+        height: this.props.size,
+        display: "inline-block",
+        margin: "2px 7px"
+      };
+
+      var rowStyle = {
+        textAlign: "center",
+        padding: "10px 10px"
+      };
+
+      return (
+        <div className="qm-card-row" style={rowStyle} >
+          {this.props.data.map(function(source) {
+            return <img src={source} style={cardStyle} />
+          })}
+        </div>);
+    }
+  });
+
+/* ========================================================================================= */
+
+    // Might make this further decomposed into LetterCardStack if styling is different.
+    var TextCardStack = React.createClass({
+      propTypes: {
+        // tODO: decide or ask if string is the best way; if its always A, B, C, etc. then consider an enum
+        content: React.PropTypes.string,
+        size: React.PropTypes.string,
+        handleClick: React.PropTypes.func
+      },
+
+      getDefaultProps: function() {
+        return ({
+          content: "A",
+          size: "75px"
+          //tODO see what jiho said about null functions for handle Click
+        });
+      },
+
+      getInitialState: function() {
+        return ({
+          hover: false
+        });
+      },
+
+      _onHover: function() {
+        this.setState({
+          hover: true
+        });
+      },
+
+      _offHover: function() {
+        this.setState({
+          hover: false
+        });
+      },
+
+      _onClick: function() {
+        this.props.handleClick(this.props.content);
+      },
+
+      render: function() {
+        
+        // TODO: make it look like a stack
+        var styles = {
+          backgroundColor: "#f9fafb",
+          borderRadius: "5px",
+          width: this.props.size,
+          height: this.props.size,
+          boxShadow: "0px 3px 2px 0px rgba(77, 78, 78, 0.5)",
+          zIndex: 2,
+          position: "absolute"
+        };
+
+        if (this.state.hover) {
+          styles.boxShadow = "0px 5px 6px 0px rgba(77, 78, 78, 0.5)";
+        }
+
+        var textStyle = {
+          textAlign: "center",
+          // needs to be percent
+          fontSize: "36px",
+          color: "#06b9f7",
+          fontFamily: "Futura medium",
+          position: "relative",
+          top: "50%",
+          transform: "translateY(-50%)",
+          WebkitTouchCallout: "none",
+          WebkitUserSelect: "none",
+          // -khtml-user-select: none;
+          // -moz-user-select: none;
+          // -ms-user-select: none;
+          userSelect: "none",
+          cursor: "default"
+        };
+
+        var stackedStyle = {
+          backgroundColor: "#f9fafb",
+          borderRadius: "5px",
+          width: this.props.size,
+          height: this.props.size,
+          position: "absolute",
+          boxShadow: "0px 3px 2px 0px rgba(77, 78, 78, 0.5)",
+          margin: "2px 0px 0px 2px",
+          zIndex: 1
+        };
+
+        // TODO: better naming, automate this somehow
+        var stackedStyle2 = {
+          backgroundColor: "#f9fafb",
+          borderRadius: "5px",
+          width: this.props.size,
+          height: this.props.size,
+          position: "absolute",
+          boxShadow: "0px 3px 2px 0px rgba(77, 78, 78, 0.5)",
+          margin: "4px 0px 0px 4px"
+        };
+
+        var wholeStackStyle = {
+          //todo: helper method to excise out the number, add some padding to it
+          height: "80px",
+          width: "80px",
+          display: "inline-block",
+          margin: "2px 7px"
+        };
+        
+        return (
+          <div className="gc-card-stack" style={wholeStackStyle} >
+            <div className="gc-card-stack-top"
+              onMouseEnter={this._onHover}
+              onMouseLeave={this._offHover}
+              style={styles}
+              onClick={this._onClick}>
+              <div className="gc-card-text" style={textStyle}>
+                {this.props.content}
+              </div>
+            </div>
+            <div className="gc-card-stack-noninteractive" style={stackedStyle}></div>
+            <div className="gc-card-stack-noninteractive" style={stackedStyle2}></div>
+          </div>
+          
+        );
+      }
+    });
+
+/* ========================================================================================= */
+
+    var CardStacks = React.createClass({
+      propTypes: {
+        length: React.PropTypes.number,
+        //TODO: better name?
+        moveToRow: React.PropTypes.func
+      },
+
+      //TODO: def props
+
+      render: function() {
+        var styles = {
+          textAlign: "center",
+          //TODO
+          padding: "20px 10px"
+        };
+
+        return (
+          <div className="gc-card-stacks" style={styles} >
+            <TextCardStack content={"A"} handleClick={this.props.moveToRow} />
+            <TextCardStack content={"B"} handleClick={this.props.moveToRow} />
+          </div>
+        );
+      }
+
+    });
+
+/* ========================================================================================= */
+
+    // Top level parent controller view, consists of card row and card stacks
+    var CardPattern = React.createClass({
+      propTypes: {
+        data: React.PropTypes.array
+      },
+
+      getDefaultProps: function() {
+        return {
+          data: getTestRow()
+        };
+      },
+
+      _getFirstOpenSlot: function() {
+        var count = 0;
+        for (var i = 0; i < this.props.data.length; i++) {
+          var card = this.props.data[i];
+          if (card.isPreplaced()) {
+            count++;
+          }
+          else {
+            return count;
+          }
+        }
+        return count;
+      },
+
+      getInitialState: function() {
+        var cardsFromProps = this.props.data;
+        for (var i = 0; i < cardsFromProps.length; i++) {
+          cardsFromProps[i].key = i;
+        }
+
+        return ({
+          activeSlot: this._getFirstOpenSlot(),
+          data: cardsFromProps
+        });
+      },
+
+      _updateActiveSlot: function(index) {
+        var oldActiveIndex = this.state.activeSlot;
+        this.state.data[oldActiveIndex].removeActive();
+        this.state.data[index].setActive();
+
+        this.setState({
+          activeSlot: index,
+          data: this.state.data
+        });
+      },
+
+      _updateActiveCard: function(content) {
+        this.state.data[this.state.activeSlot].setContent(content);
+        this.state.data[this.state.activeSlot].setUserPlaced();
+        //TODO: cant be just += 1, must check to see if its alreayd placed.
+        var offset = 0;
+        while (this.state.activeSlot + offset !== this.state.data.length - 1 
+          && this.state.data[this.state.activeSlot + offset].isUserPlaced()) 
+        {
+          offset++;
+        }
+        this._updateActiveSlot(this.state.activeSlot + offset);
+
+        this.setState({
+          data: this.state.data
+        });
+      },
+
+      getActiveSlotIndex: function() {
+        return this.state.activeSlot;
+      },
+
+      getActiveSlot: function() {
+        //TODO: some precondition that it cant be preplaced?
+        return this.state.data[getActiveSlotIndex];
+      },
+
+      componentDidMount: function() {
+        this._updateActiveSlot(this._getFirstOpenSlot());
+      },
+
+      render: function() {
+        var styles = {
+          padding: "20px"
+        };
+
+        return (
+          <div className="gc-card-pattern" style={styles} >
+            <QMCardRow />
+
+            <CardRow 
+              cards={this.state.data}
+              selectActive={this._updateActiveSlot} />
+
+            <CardStacks
+              moveToRow={this._updateActiveCard} />
+          </div>
+        );
+      }
+    });
+ 
+    var test = false;
+    ReactDOM.render(<CardPattern />, document.getElementById("container"));
+ 
+  </script>
+ 
+</body>
+</html>
+
+

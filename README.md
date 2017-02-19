@@ -92,26 +92,44 @@ Spell Save Check = 8 + Proficency + Relevant modifier bonus
 
 DM Tips from a Pro DM
 http://imgur.com/gallery/TCyH1/new
-
-DM Tips from Reddit
 https://www.reddit.com/r/DungeonsAndDragons/comments/2n0fm2/basics_of_being_a_dungeon_master_or_how_i_learned/
+https://www.reddit.com/r/DnD/comments/46htzk/i_thought_the_community_would_enjoy_seeing_the/
+
+Specific Tips
+https://www.reddit.com/r/DnDBehindTheScreen/comments/3dj0ns/offering_players_would_you_rather_scenarios_after/
+http://theangrygm.com/manage-combat-like-a-dolphin/
+https://www.reddit.com/r/DnDBehindTheScreen/comments/5583ur/on_no_but_improv/?utm_content=title&utm_medium=browse&utm_source=reddit&utm_name=multi
+https://www.reddit.com/r/DnD/comments/349hv3/how_did_you_characters_meet/
+https://www.reddit.com/r/DnDBehindTheScreen/comments/5hkucg/building_a_randomized_city_with_one_die_roll_and/
 
 Character Creation ( + a lot more video guides)
 https://www.youtube.com/watch?v=KFkdHn1d3Ow
+http://rpg.stackexchange.com/questions/77247/what-are-the-playable-dd-races-in-5e
 
 Harmontown, the best D&D pocast
 https://dl.dropboxusercontent.com/u/18252097/harmontown.html
 
-Guide Dump
-
+Guide Dump + Cheat Sheets
 http://www.giantitp.com/forums/showthread.php?377491-Guides-Tables-and-other-useful-tools-for-5E-D-amp-D
+https://drive.google.com/file/d/0B5NsJ80BORg_bEpRQ3lLd0NBVGc/view
+https://drive.google.com/drive/u/1/folders/0ByUSksih2erpVEpvM0FydnJLQUU
+Player Reference: https://drive.google.com/file/d/0B2Fbq7v8pucJVENWZlE5Z2h1T00/view
+DM Cheat Sheet: https://drive.google.com/file/d/0B5NsJ80BORg_bEpRQ3lLd0NBVGc/view
+Spell Cards: http://hardcodex.ru/warlock/
+https://www.reddit.com/r/DnDBehindTheScreen/comments/5lwg2s/heres_a_dungeon_crawl_for_you_all/
+https://www.reddit.com/r/DnD/comments/46htzk/i_thought_the_community_would_enjoy_seeing_the/
+https://docs.google.com/spreadsheets/d/1d-KM-bLzBMPS6lLas1QJcE6prmPcLny6W6ZwVXBiCVY/edit#gid=689396640
+https://www.reddit.com/r/DnDBehindTheScreen/comments/3rh9lx/all_the_everything_mostly/
 
 
+Magic Items: https://drive.google.com/file/d/0B2Uwc4iLtZShdUJQN2dtY2hmNUE/view
 
+Music: https://www.reddit.com/r/DnDBehindTheScreen/comments/3k9iyz/music_spotify_playlists_for_dungeons_travel/
 
+JP: https://www.reddit.com/r/DnD/comments/5nebph/last_night_my_players_found_out_that_the_homebrew/
 
-
-
-
+Magic Items
+https://www.reddit.com/r/DnDBehindTheScreen/comments/5k90g9/d6_magic_item_shop_items_that_wont_disrupt_your/
+https://drive.google.com/file/d/0B5NsJ80BORg_OUxYV3dJN2RoaUU/view
 
 
