@@ -90,17 +90,34 @@ Spell Save Check = 8 + Proficency + Relevant modifier bonus
 
 ## Links
 
-DM Tips from a Pro DM
+Cheat Sheets / References
+Player Reference: https://drive.google.com/file/d/0B2Fbq7v8pucJVENWZlE5Z2h1T00/view
+DM Cheat Sheet: https://drive.google.com/file/d/0B5NsJ80BORg_bEpRQ3lLd0NBVGc/view
+Spell Cards: http://hardcodex.ru/warlock/
+SRD: http://media.wizards.com/2016/downloads/SRD-OGL_V1.1.pdf
+Monsters: http://www.orcpub.com/dungeons-and-dragons/5th-edition/monsters
+
+DM Tips from pro DM's
 http://imgur.com/gallery/TCyH1/new
 https://www.reddit.com/r/DungeonsAndDragons/comments/2n0fm2/basics_of_being_a_dungeon_master_or_how_i_learned/
-https://www.reddit.com/r/DnD/comments/46htzk/i_thought_the_community_would_enjoy_seeing_the/
+https://www.reddit.com/r/DMAcademy/comments/4zanzl/the_3_storytelling_skills_for_dms_and_how_to/
 
-Specific Tips
-https://www.reddit.com/r/DnDBehindTheScreen/comments/3dj0ns/offering_players_would_you_rather_scenarios_after/
-http://theangrygm.com/manage-combat-like-a-dolphin/
-https://www.reddit.com/r/DnDBehindTheScreen/comments/5583ur/on_no_but_improv/?utm_content=title&utm_medium=browse&utm_source=reddit&utm_name=multi
-https://www.reddit.com/r/DnD/comments/349hv3/how_did_you_characters_meet/
-https://www.reddit.com/r/DnDBehindTheScreen/comments/5hkucg/building_a_randomized_city_with_one_die_roll_and/
+TOOLS
+Miniature: http://printableheroes.tumblr.com/post/157677982597/another-little-process-breakdown-gif-for-the
+https://drive.google.com/drive/u/1/folders/0B9wKLjixK7DHd3pMZk92Z2xhdVk
+
+
+DM Worldbuilding
+https://www.reddit.com/r/DnDBehindTheScreen/comments/5v404h/the_corrupted_city_10_evil_gods_10_evil_temples/
+Isometric drawing: https://www.reddit.com/r/DnD/comments/5vxflq/i_drew_this_yesterday_i_love_drawing_in_isometric/
+
+DM Specific Tips
+Would you rather: https://www.reddit.com/r/DnDBehindTheScreen/comments/3dj0ns/offering_players_would_you_rather_scenarios_after/
+Managing combat: http://theangrygm.com/manage-combat-like-a-dolphin/
+"No, but": https://www.reddit.com/r/DnDBehindTheScreen/comments/5583ur/on_no_but_improv/?utm_content=title&utm_medium=browse&utm_source=reddit&utm_name=multi
+Adventure hooks: https://www.reddit.com/r/DnD/comments/349hv3/how_did_you_characters_meet/
+City building: https://www.reddit.com/r/DnDBehindTheScreen/comments/5hkucg/building_a_randomized_city_with_one_die_roll_and/
+Organization: https://www.reddit.com/r/DnD/comments/46htzk/i_thought_the_community_would_enjoy_seeing_the/
 
 Character Creation ( + a lot more video guides)
 https://www.youtube.com/watch?v=KFkdHn1d3Ow
@@ -109,18 +126,17 @@ http://rpg.stackexchange.com/questions/77247/what-are-the-playable-dd-races-in-5
 Harmontown, the best D&D pocast
 https://dl.dropboxusercontent.com/u/18252097/harmontown.html
 
-Guide Dump + Cheat Sheets
+Guide Dumps
 http://www.giantitp.com/forums/showthread.php?377491-Guides-Tables-and-other-useful-tools-for-5E-D-amp-D
-https://drive.google.com/file/d/0B5NsJ80BORg_bEpRQ3lLd0NBVGc/view
-https://drive.google.com/drive/u/1/folders/0ByUSksih2erpVEpvM0FydnJLQUU
-Player Reference: https://drive.google.com/file/d/0B2Fbq7v8pucJVENWZlE5Z2h1T00/view
-DM Cheat Sheet: https://drive.google.com/file/d/0B5NsJ80BORg_bEpRQ3lLd0NBVGc/view
-Spell Cards: http://hardcodex.ru/warlock/
-https://www.reddit.com/r/DnDBehindTheScreen/comments/5lwg2s/heres_a_dungeon_crawl_for_you_all/
 https://www.reddit.com/r/DnD/comments/46htzk/i_thought_the_community_would_enjoy_seeing_the/
 https://docs.google.com/spreadsheets/d/1d-KM-bLzBMPS6lLas1QJcE6prmPcLny6W6ZwVXBiCVY/edit#gid=689396640
 https://www.reddit.com/r/DnDBehindTheScreen/comments/3rh9lx/all_the_everything_mostly/
 
+Screen
+https://drive.google.com/file/d/0B5NsJ80BORg_bEpRQ3lLd0NBVGc/view
+https://drive.google.com/drive/u/1/folders/0ByUSksih2erpVEpvM0FydnJLQUU
+
+Homebrew characters: http://dnd-5e-homebrew.tumblr.com/post/138667524695/werewolf-prestige-class-by-wardrow
 
 Magic Items: https://drive.google.com/file/d/0B2Uwc4iLtZShdUJQN2dtY2hmNUE/view
 
@@ -131,5 +147,31 @@ JP: https://www.reddit.com/r/DnD/comments/5nebph/last_night_my_players_found_out
 Magic Items
 https://www.reddit.com/r/DnDBehindTheScreen/comments/5k90g9/d6_magic_item_shop_items_that_wont_disrupt_your/
 https://drive.google.com/file/d/0B5NsJ80BORg_OUxYV3dJN2RoaUU/view
+
+Music
+Diablo II: https://www.youtube.com/watch?v=5DWsH66C2Ag
+Team Rocket Hideout HGSS: https://www.youtube.com/watch?v=nOywZMJT7OU&t=715s
+https://www.reddit.com/r/DnDBehindTheScreen/comments/3k9iyz/music_spotify_playlists_for_dungeons_travel/
+
+Dungeon Design
+https://i0.wp.com/manonthelam.com/wp-content/uploads/2012/10/Sign-detailling-murder-holes-at-Nizwa-Fort.jpg
+http://tvblogs.nationalgeographic.com/files/2013/08/Castle-Traps-and-Defenses.jpg
+https://www.reddit.com/r/DnDBehindTheScreen/comments/5lwg2s/heres_a_dungeon_crawl_for_you_all/
+https://www.reddit.com/r/DnD/comments/5xub9l/oc_the_twisted_caverns_hopefully_it_can_be_of_use/
+
+Specific Rulings
+Light cantrips to blind: https://www.reddit.com/r/DnD/comments/13alsc/can_you_utilize_the_wizard_cantrip_light_to_blind/
+Ambushing behind doors & surprise: http://rpg.stackexchange.com/questions/49365/surprise-when-kicking-down-a-door
+P2: http://rpg.stackexchange.com/questions/90919/is-skill-check-always-against-a-dc-or-why-is-stealth-an-exception
+Bottlenecks: http://rpg.stackexchange.com/questions/50702/how-does-one-avoid-a-bottleneck-of-enemies-in-a-doorway
+Caster Resting: https://www.reddit.com/r/DnD/comments/33f1u3/5e_when_does_each_caster_class_get_their_spell/
+Minor Illusion: https://www.reddit.com/r/dndnext/comments/2yc6k4/could_i_use_minor_illusion_to_distract_an_npc_in/
+Advantage: https://www.reddit.com/r/DnD/comments/29xk0j/5e_summary_of_situations_causing_advantage_or/
+
+One-Shots
+https://www.reddit.com/r/DnDBehindTheScreen/comments/5xtmlh/running_oneshots_with_your_supporting_cast_is/
+
+
+	
 
 
