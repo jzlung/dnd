@@ -105,11 +105,18 @@ https://www.reddit.com/r/DMAcademy/comments/4zanzl/the_3_storytelling_skills_for
 TOOLS
 Miniature: http://printableheroes.tumblr.com/post/157677982597/another-little-process-breakdown-gif-for-the
 https://drive.google.com/drive/u/1/folders/0B9wKLjixK7DHd3pMZk92Z2xhdVk
+Random Tables: http://www.dicegeeks.com/1d100-random-rpg-tables/
 
 
 DM Worldbuilding
 https://www.reddit.com/r/DnDBehindTheScreen/comments/5v404h/the_corrupted_city_10_evil_gods_10_evil_temples/
 Isometric drawing: https://www.reddit.com/r/DnD/comments/5vxflq/i_drew_this_yesterday_i_love_drawing_in_isometric/
+City idea: https://www.reddit.com/r/DnD/comments/5zqdn8/oc_i_got_frustrated_with_the_lack_of_decent_city/
+Isometric paper: http://www.printfreegraphpaper.com/
+Isometric dungeon design: https://www.reddit.com/r/rpg/comments/1n3pst/tips_tricks_for_drawing_dungeon_maps/
+Dungeon design: https://roleplayingtips.com/rptn/rpt156-6-methods-making-dungeons-interesting/
+
+
 
 DM Specific Tips
 Would you rather: https://www.reddit.com/r/DnDBehindTheScreen/comments/3dj0ns/offering_players_would_you_rather_scenarios_after/
@@ -118,6 +125,15 @@ Managing combat: http://theangrygm.com/manage-combat-like-a-dolphin/
 Adventure hooks: https://www.reddit.com/r/DnD/comments/349hv3/how_did_you_characters_meet/
 City building: https://www.reddit.com/r/DnDBehindTheScreen/comments/5hkucg/building_a_randomized_city_with_one_die_roll_and/
 Organization: https://www.reddit.com/r/DnD/comments/46htzk/i_thought_the_community_would_enjoy_seeing_the/
+RP during combat: http://rpg.stackexchange.com/questions/2513/how-to-communicate-to-the-players-that-an-encounter-can-be-solved-also-through-d
+
+Campaign Design
+https://www.reddit.com/r/DMAcademy/comments/5z8sz3/how_to_make_an_interesting_campaign_based_on/
+
+Encounter Design
+http://rpg.stackexchange.com/questions/67976/how-can-i-avoid-making-extended-prolonged-encounters-boring?rq=1
+https://www.reddit.com/r/DnD/comments/2xtsgc/any_suggestions_for_interesting_encounters_for_a/
+https://www.reddit.com/r/DnD/comments/1jr5xn/murder_mystery_advice/
 
 Character Creation ( + a lot more video guides)
 https://www.youtube.com/watch?v=KFkdHn1d3Ow
@@ -158,6 +174,13 @@ https://i0.wp.com/manonthelam.com/wp-content/uploads/2012/10/Sign-detailling-mur
 http://tvblogs.nationalgeographic.com/files/2013/08/Castle-Traps-and-Defenses.jpg
 https://www.reddit.com/r/DnDBehindTheScreen/comments/5lwg2s/heres_a_dungeon_crawl_for_you_all/
 https://www.reddit.com/r/DnD/comments/5xub9l/oc_the_twisted_caverns_hopefully_it_can_be_of_use/
+https://www.reddit.com/r/DnDBehindTheScreen/comments/5y0gz5/some_recent_wins_your_group_may_also_enjoy/
+TRAPS: https://www.reddit.com/r/DnD/comments/3lgwnt/5e_whats_the_point_of_autodetect_traps/cv6bars/
+https://rpghorsemen.wordpress.com/2014/03/31/map-of-the-week-4/
+tower https://s-media-cache-ak0.pinimg.com/736x/81/39/f6/8139f6d5c78c0f4c7f1c7e542c9e1ac7.jpg
+https://www.pinterest.com/robsmith/dnd-floor-plans-maps-and-icons/
+
+
 
 Specific Rulings
 Light cantrips to blind: https://www.reddit.com/r/DnD/comments/13alsc/can_you_utilize_the_wizard_cantrip_light_to_blind/
@@ -170,8 +193,7 @@ Advantage: https://www.reddit.com/r/DnD/comments/29xk0j/5e_summary_of_situations
 
 One-Shots
 https://www.reddit.com/r/DnDBehindTheScreen/comments/5xtmlh/running_oneshots_with_your_supporting_cast_is/
+https://www.reddit.com/r/rpg/comments/5z7yhu/honey_heist_is_a_free_onepage_roleplaying_game/
 
-
-	
 
 
