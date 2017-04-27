@@ -96,6 +96,8 @@ DM Cheat Sheet: https://drive.google.com/file/d/0B5NsJ80BORg_bEpRQ3lLd0NBVGc/vie
 Spell Cards: http://hardcodex.ru/warlock/
 SRD: http://media.wizards.com/2016/downloads/SRD-OGL_V1.1.pdf
 Monsters: http://www.orcpub.com/dungeons-and-dragons/5th-edition/monsters
+https://www.reddit.com/r/tabletop/comments/64s76q/get_all_of_your_dd5e_spells_in_one_printable_pdf/
+
 
 DM Tips from pro DM's
 http://imgur.com/gallery/TCyH1/new
@@ -107,6 +109,9 @@ Miniature: http://printableheroes.tumblr.com/post/157677982597/another-little-pr
 https://drive.google.com/drive/u/1/folders/0B9wKLjixK7DHd3pMZk92Z2xhdVk
 Random Tables: http://www.dicegeeks.com/1d100-random-rpg-tables/
 
+DUMPS
+https://www.reddit.com/r/DnDBehindTheScreen/comments/61ymav/the_complete_hippo_updated/
+
 
 DM Worldbuilding
 https://www.reddit.com/r/DnDBehindTheScreen/comments/5v404h/the_corrupted_city_10_evil_gods_10_evil_temples/
@@ -116,6 +121,7 @@ Isometric paper: http://www.printfreegraphpaper.com/
 Isometric dungeon design: https://www.reddit.com/r/rpg/comments/1n3pst/tips_tricks_for_drawing_dungeon_maps/
 Dungeon design: https://roleplayingtips.com/rptn/rpt156-6-methods-making-dungeons-interesting/
 
+Shirt: https://www.redbubble.com/people/wholesomeguy/works/24747517-rocks-fall-everyone-dice?grid_pos=25&p=t-shirt&style=mens
 
 
 DM Specific Tips
@@ -129,11 +135,19 @@ RP during combat: http://rpg.stackexchange.com/questions/2513/how-to-communicate
 
 Campaign Design
 https://www.reddit.com/r/DMAcademy/comments/5z8sz3/how_to_make_an_interesting_campaign_based_on/
+Mystery: https://www.reddit.com/r/DnD/comments/1jr5xn/murder_mystery_advice/
+Algernon: https://www.reddit.com/r/DnDBehindTheScreen/comments/5xs40b/flowers_for_algernon_a_manipulative_green_dragon/
+https://www.reddit.com/r/DnD/comments/4pz73t/clues_for_a_missingperson_mystery/
+
+
 
 Encounter Design
 http://rpg.stackexchange.com/questions/67976/how-can-i-avoid-making-extended-prolonged-encounters-boring?rq=1
 https://www.reddit.com/r/DnD/comments/2xtsgc/any_suggestions_for_interesting_encounters_for_a/
 https://www.reddit.com/r/DnD/comments/1jr5xn/murder_mystery_advice/
+https://rpg.stackexchange.com/questions/83721/how-to-make-combat-encounters-terrifying?rq=1
+https://www.reddit.com/r/DnDBehindTheScreen/comments/5zqfe3/harder_better_faster_stronger_using_enemy_wizards/
+
 
 Character Creation ( + a lot more video guides)
 https://www.youtube.com/watch?v=KFkdHn1d3Ow
@@ -179,6 +193,11 @@ TRAPS: https://www.reddit.com/r/DnD/comments/3lgwnt/5e_whats_the_point_of_autode
 https://rpghorsemen.wordpress.com/2014/03/31/map-of-the-week-4/
 tower https://s-media-cache-ak0.pinimg.com/736x/81/39/f6/8139f6d5c78c0f4c7f1c7e542c9e1ac7.jpg
 https://www.pinterest.com/robsmith/dnd-floor-plans-maps-and-icons/
+https://www.reddit.com/r/DnD/comments/61g0mr/oc_dd_battle_puzzlemap_slight_lmop_spoilers/
+DUNGEON MANIFESTO: https://roleplayingtips.com/rptn/rpt156-6-methods-making-dungeons-interesting/
+https://www.reddit.com/r/rpg/comments/1l72cw/10000_greatest_traps_puzzles/
+
+
 
 
 
@@ -190,10 +209,25 @@ Bottlenecks: http://rpg.stackexchange.com/questions/50702/how-does-one-avoid-a-b
 Caster Resting: https://www.reddit.com/r/DnD/comments/33f1u3/5e_when_does_each_caster_class_get_their_spell/
 Minor Illusion: https://www.reddit.com/r/dndnext/comments/2yc6k4/could_i_use_minor_illusion_to_distract_an_npc_in/
 Advantage: https://www.reddit.com/r/DnD/comments/29xk0j/5e_summary_of_situations_causing_advantage_or/
+Ready: http://rpg.stackexchange.com/questions/84215/can-you-move-and-act-with-the-ready-action
+Using hostages as cover: http://rpg.stackexchange.com/questions/47377/firing-into-a-melee-combat
+
+
 
 One-Shots
 https://www.reddit.com/r/DnDBehindTheScreen/comments/5xtmlh/running_oneshots_with_your_supporting_cast_is/
 https://www.reddit.com/r/rpg/comments/5z7yhu/honey_heist_is_a_free_onepage_roleplaying_game/
+https://github.com/brunobord/micro-rpg-catalog/blob/master/perpetuallytipsy-quickie.md
+https://en.wikipedia.org/wiki/Fiasco_(role-playing_game)
+https://www.reddit.com/r/rpg/comments/4e9ag7/games_in_modern_day_settings/
+https://drive.google.com/file/d/0B969888pWakxd0pmWU9mcy1MY00/view
+
+
+
+
+Stories
+https://www.reddit.com/r/rpg/comments/riu9e/awesome_dm_uses_a_solo_campaign_with_an_unwitting/
+
 
 
 

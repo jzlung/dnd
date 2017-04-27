@@ -1,0 +1,214 @@
+The goal of the architecture interview is to determine if you can design a solution to a higher
+level problem that requires connecting multiple concepts. Typically we're looking to see that
+you have a good understanding of some of the concepts we care about, like browsers, the
+DOM, performance, API design, etc. You will be steering the conversation and you are
+expected to understand the problem and ask clarifying questions. Also, be prepared to the
+discuss the architecture of past projects you've worked on.
+
+
+Arch Int
+http://davidshariff.com/blog/preparing-for-a-front-end-web-development-interview-in-2017/
+https://gist.github.com/vasanthk/485d1c25737e8e72759f
+
+
+Client vs Server
+http://openmymind.net/2012/5/30/Client-Side-vs-Server-Side-Rendering/
+http://tomdale.net/2015/02/youre-missing-the-point-of-server-side-rendered-javascript-apps/
+
+
+Stats:
+https://zephoria.com/top-15-valuable-facebook-statistics/
+
+Twitter:
+https://www.hiredintech.com/classrooms/system-design/lesson/70
+
+
+JACKSON GABBARD
+
+- users: ask about the geographic distribution of users. Ask about the biggest markets for the app. What timezones are most of the users in?
+- be empathetic to users: how much data is transmit on mobile network is too much? UX? smooth experience for users. 
+
+
+FACEBOOK STUFF
+
+Server to client side, News Feed
+https://code.facebook.com/posts/663139850520576/client-side-ranking-to-more-efficiently-show-people-stories-in-feed/
+
+React State & Async Request Mgmt & Component Arch, Multilingual Posts
+https://code.facebook.com/posts/597373993776783/building-a-better-way-to-write-posts-in-multiple-languages/
+
+Typeahead with tokenizer
+Preload on focus to keep in cache
+https://www.facebook.com/notes/facebook-engineering/the-life-of-a-typeahead-query/389105248919/
+	Number of results: We wanted to show enough entries so that you would serendipitously stumble upon fun results while typing, yet showing fewer results would be faster and be less distracting. Our ultimate design varies the number of results shown based on your browser window height.
+	Searching: Even though we made the Enter key auto-select the first result, we wanted to ensure users who wanted to search still could. We experimented heavily with the placement, wording, and appearance of the “See More Results” link that takes you to our traditional search page.
+	Mouse vs. keyboard: While Facebook employees are heavy keyboard users, we discovered most users prefer to use the mouse to select from the typeahead. This led us to focus on mouse use-cases more than we naturally would have.
+Typeahead with tokenizer: http://sliptree.github.io/bootstrap-tokenfield/
+	Div
+	Hidden input with the true values that the submit will grab from
+	Tokens
+	Visible input after the tokens, placeholder, value gets deleted when a result is chosen (state updates), moves onto new line when too full
+Send button has typeahead: https://code.facebook.com/posts/172718822914973/building-the-send-button/
+
+Place Tips
+Abstract Composition
+unlimited feed of varied information via cards across our mobile applications -> Server work, thin client
+https://code.facebook.com/posts/875314995887990/under-the-hood-place-tips-at-lollapalooza/
+Any time you display the data (e.g. mapping data to list items or cards) think about if you would be able to replace it with other kinds of data (upcoming events attachment links with a grid of photos instead)
+	The team that built this framework was challenged with how to display an unlimited feed of varied information via cards across our mobile applications. The product was somewhat similar to News Feed in concept, but these cards needed to display arbitrary aggregations of data — for example, friends' photos at a place or previous posts with a particular friend. Uniquely, the cards needed both flexible and consistent rendering across all our apps and app versions. This led to a system where the server has a very high level of control of the client rendering.
+
+
+Moments
+Responsive -> optimistic UI updates (update UI before saving to server) -> client driven -> untyped server data
+https://code.facebook.com/posts/498597036962415/under-the-hood-building-moments/
+
+
+Chrome cache 100MB
+
+Pinterest
+http://cssdeck.com/labs/css-only-pinterest-style-columns-layout
+
+
+State MGMT in Components:
+FORMS
+https://facebook.github.io/react/docs/forms.html
+
+Carousel:
+https://jsfiddle.net/sjq4zzkw/3/
+
+Cards:
+https://material.io/guidelines/components/cards.html#cards-content
+Different types of content, non-homogenous, different actions on each one, entryway to more content, constant width variable height
+
+
+Design a URL shortening service like bit.ly.
+How would you implement the Google search?
+Design a client-server application which allows people to play chess with one another.
+How would you store the relations in a social network like Facebook and implement a feature where one user receives notifications when their friends like the same things as they do?
+
+
+FRONT END COMPONENT ARCHITECTURE
+http://developer.telerik.com/featured/front-end-application-frameworks-component-architectures/
+
+OTHER INSIGHT
+Database different from the file system/server
+
+
+API DESIGN
+- reusability
+- take specific needs, turn into general abstractions (given dog, return the square)
+1. An isolated, reusable, and decoupled instance with no side effects
+2. A default styled UI element that a user can interact with, allowing them to store the state of a decision
+3. Configuration that affects the state via properties that are passed declaratively to the component by way of HTML attributes, text, and child components (i.e. <option>) that can contain attributes and text as well
+4. An API to imperatively program the component, affecting state, via the DOM and JavaScript (i.e. DOM events and methods)
+
+Component should be an atomic UI piece that is composable and reusable, and should work with other pieces in a way that’s performant.
+A complex front-end application is built using a tree of data-bound, single-purpose, self-contained UI components.
+
+
+
+PROCESS
+
+1. SCOPE
+	- users
+	- constraints
+	- requirements, features
+		-> hints at whether you want client (responsiveness, relevance of UI results in the face of network connectivity issues) or server side logic (handle lots of different data & UI types)
+
+
+2. HIGH LEVEL DESIGN
+	- front end
+	- back end
+	- data format
+
+
+3. Deep dive
+ - front end
+ 	- box diagram
+ 	- map to react component hierarchy
+ 		- reusability
+ 	- map to html/css
+
+ - logic layer
+ 	- manage state
+ 	- async requests
+ 	- component API
+
+ - browser cache
+
+ - request/response data format
+ 	- data sizes
+
+ - memcached
+
+ - db & backend architecture
+ 	- sql vs nosql
+ 	- relations (if sql) and tables
+ 	- sizes of data
+
+ - aggregators
+
+4. Scale & Platforms
+	- BOTTLENECKS
+	- horizontal scaling
+	- load balancer
+	- client side vs server side
+		- news feed now renders client side for extra logic and network downtime performance
+	- MOBILE
+		- different product on mobile? or same?
+
+
+NUMBERS TO KNOW:
+PNG ~ 2 – 4 kB
+GIF ~ 6 – 8 kB
+JPG ~ 9 – 12 kB
+PDF ~ 18 – 20 kB
+MP3 song ~ 3 – 4 MB
+DVD Movie ~ 4 GB
+First, cover photos often reach 100 KB, even after JPEG compression
+Default cache sizes : 50MB
+20-30 Common Core standards for one grade of one subject
+2G connections might be transferring data as slowly as 32 KB/second
+
+
+SERVER SIDE
+Your content is visible to search engines like Google.
+The page loads faster. There's no "white page" while the browser downloads the rendering code and data and runs the code.
+It maintains the idea that pages are documents, and if you ask a server for a document by URL, you get back the text of the document rather than a program that generates that text using a complicated API.
+Your server is better than all the different devices and network capabilities out there.
+Misconception for better accessibility; it can be done, but most don't
+
+CLIENT SIDE
+The benefit is you can update the screen instantly when the user clicks, rather than waiting a few hundred milliseconds at least while the server is contacted to ask what to display. 
+
+
+
+
+
+- bit.ly
+- netflix
+- poll widget
+- calendar scheduling
+- Design FB newsfeed
+- Design a Facebook travel app
+- designing a system to do spam detection work and describing it in a huge flowchart, as might be done in an early but detailed product planning session. Be prepared to think on large scales.
+- Design a system to support Facebook status update.
+- Design the recommendation system for search keywords
+- Architect	a	world-wide	video	distribution	system
+- Build	Facebook	chat
+- Design	a	mobile	image	search	client
+- Build	an	API	to	power	a	crowd	sourced	address	book
+
+
+OPEN QUESTIONS:
+
+1. facebook news feed posts / pages posts component, one component the same or if branches and different components
+
+
+
+
+QUESTIONS TO ASK THEM: 
+
+1. On blog, sometimes server side sometimes client side logic
+
+
