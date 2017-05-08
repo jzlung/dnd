@@ -231,3 +231,57 @@ https://www.reddit.com/r/rpg/comments/riu9e/awesome_dm_uses_a_solo_campaign_with
 
 
 
+LOOT IDEAS
+
+They were entering the chambers of a particularly vain demigod. The passage to the next room was an indestructable magic mirror, with the sign over it (in elven) "To unseal me, you must enter twice but leave once."
+
+Next to mirror was a table of cosmetic items. The items are listed below. Each item, when applied, required the players to roll a d6, and the following result would occur.
+
+Naturally, an Arcana check revealed what each item might do.
+
+Lipstick
+1 - Learn 1 new language.
+2 - Learn 2 new languages, forget common.
+3 - Mouth vanishes, non-telepathic players cannot speak
+4 - Dexterous tongue; allows players to switch weapons as a free rather than minor action on their turn.
+5 - Fangs; player gets a bite attack as a minor/immediate reaction, once per encounter.
+6 - Tongue bloat- The character's tongue becomes too big for their mouth. It dangles down to their chest, useless.
+
+Rouge
+1-2 - Characters's skin becomes transparent.
+3-4 - Character's skin changes to one of the six primary/secondary colors, determined by a second d6 roll.
+5-6 - Character's biological sex switches.
+
+Comb (d4 for this one)
+1-2 - Player becomes bald
+3-4 - Beard which always grows back immediately when shaved.
+5-6 - Change hair color immediately to one of the six primary/secondary colors, based on a second d6 roll.
+
+Eyeliner (This is the key item)
+- Using this item automatically splits the character into two halves. Each half has a max HP equal to the character's bloodied value.
+
+1-3: The player can control both halves, which automatically re-combine at the end of the encounter. Each half has 1 Move action and 1 Standard action. They share the same power pool and have superior flanking.
+
+4-6: The player controls one of the halves, with a standard, move, and minor action, and half their usual Max HP. The other half is a Nasnas (I used stats from a MM1 quickling), which immediatly tries to run away. If the Nasnas isn't caught and forcibly re-attached before the player takes an extended rest, the seperation become permanent.*
+
+Each item had a total of three uses left of it. A different check on each item revealed what it might do to the player. They succeeded on the check for the eyeliner, and figured out using it would fulfill the requirement of the mirror; the two halves would enter seperately, but the combined form would eventually emerge. 
+
+They tried the eyeliner, and the player was able to control both halves through the encounter on the other side. 
+(If she had failed, the Nasnas would have jumped through the mirror, forcing them to follow and chase it through the dungeon.)
+
+Some backup rules for the Nasnas: If the seperation becomes permanent, the player naturally does NOT get half their HP or their other hand back. However, they can "steal" their HP back by finding a playable race, killing it, bisecting it's recently slain corpse, and sticking the needed half onto themselves. 
+
+The challenge was pretty easy, largely because they rolled well. (Had the Nasnas immediately run away, it would have been much more challenging) 
+
+The real fun was they had some amusing items to play with afterwards. They ended up using half the items to "makeover" a captive enemy, and using the rest up as part of a drinking game. 
+
+(All effects could be cured via ritual; the price of the ritual for any given effect was 1d10 X 1000 GP.)
+
+During the drinking game, one player did make a Nasnas, but they restrained it immediately. Instead of recombining with it, however, he had another player split in half, and they recombined with half of each other instead. 
+
+(I gave them a few sadistic "switch-place" powers, to reflect their condition. As an encounter, they could agree to switch places. As an 2/per encounter, they could roll to transfer an effect a save could end to each other. As a Daily, one of them could steal up to half the other's HP.)
+
+
+
+
+
