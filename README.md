@@ -132,6 +132,7 @@ Adventure hooks: https://www.reddit.com/r/DnD/comments/349hv3/how_did_you_charac
 City building: https://www.reddit.com/r/DnDBehindTheScreen/comments/5hkucg/building_a_randomized_city_with_one_die_roll_and/
 Organization: https://www.reddit.com/r/DnD/comments/46htzk/i_thought_the_community_would_enjoy_seeing_the/
 RP during combat: http://rpg.stackexchange.com/questions/2513/how-to-communicate-to-the-players-that-an-encounter-can-be-solved-also-through-d
+https://www.reddit.com/r/DnD/comments/6fi3py/dming5e_my_dm_hit_our_group_with_this_little_neat/
 
 Campaign Design
 https://www.reddit.com/r/DMAcademy/comments/5z8sz3/how_to_make_an_interesting_campaign_based_on/
