@@ -96,6 +96,9 @@ http://imgur.com/gallery/TCyH1/new
 DM Tips from Reddit
 https://www.reddit.com/r/DungeonsAndDragons/comments/2n0fm2/basics_of_being_a_dungeon_master_or_how_i_learned/
 
+Getting into Character
+https://www.reddit.com/r/DMAcademy/comments/8eeueq/steal_this_idea_the_warmup_question/
+
 Character Creation ( + a lot more video guides)
 https://www.youtube.com/watch?v=KFkdHn1d3Ow
 
@@ -105,6 +108,7 @@ https://dl.dropboxusercontent.com/u/18252097/harmontown.html
 Guide Dump
 
 http://www.giantitp.com/forums/showthread.php?377491-Guides-Tables-and-other-useful-tools-for-5E-D-amp-D
+https://www.reddit.com/r/DnDBehindTheScreen/comments/3ttm1i/run/
 
 
 
